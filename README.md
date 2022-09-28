@@ -182,7 +182,7 @@ python3 main-你想要的模式.py
 
 **之后运行:**
 
-手动恢复类别下载进度:去本地Books文件夹看有多少个类别被下载了(比如有num个),然后再main-xxx.py里修改downloadWebsite()里的bs.select('.subcategory-name a')改为bs.select('.subcategory-name a')[num-1:]
+手动恢复类别下载进度:去本地Books文件夹看有多少个类别被下载了(比如有num个),然后再main-xxx.py里修改`downloadWebsite()`里的`bs.select('.subcategory-name a')改为bs.select('.subcategory-name a')[num-1:]`
 
 (我知道这很原始,懒得改了)
 
